@@ -1,0 +1,8 @@
+# NOTE directory of same name must already exist under share
+name: ""
+namespace: ""
+server: ""
+share: ""
+storage: 10Mi
+reclaimPolicy: Retain
+accessMode: ReadWriteOnce

@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: "{{ .Values.name }}"
+spec:
+  claimRef:
+    name: "{{ .Values.name }}"
+    namespace: "{{ .Values.namespace }}"
+  accessModes:
+    - {{ .Values.accessMode }}
+  persistentVolumeReclaimPolicy: "{{ .Values.reclaimPolicy }}"
+  capacity:
+    storage: "{{ .Values.storage }}"
+  csi:
+    driver: nfs.csi.k8s.io
+    volumeHandle: "{{ .Values.name }}"
+    volumeAttributes:
+      server: "{{ .Values.server }}"
+      share: {{ .Values.share }}/{{ .Values.name }}
