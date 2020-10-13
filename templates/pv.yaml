@@ -17,3 +17,4 @@ spec:
     volumeAttributes:
       server: "{{ .Values.server }}"
       share: {{ .Values.share }}/{{ .Values.name }}
+  storageClassName: ""

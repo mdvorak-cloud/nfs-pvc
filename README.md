@@ -14,8 +14,8 @@ spec:
 
   source:
     repoURL: https://github.com/mdvorak-cloud/nfs-pvc.git
-    targetRevision: HEAD
     path: .
+    targetRevision: HEAD
     helm:
       parameters:
         - name: name
