@@ -16,5 +16,5 @@ spec:
     volumeHandle: "{{ .Values.name }}"
     volumeAttributes:
       server: "{{ .Values.server }}"
-      share: {{ .Values.share }}/{{ .Values.name }}
+      share: {{ if .Values.shareFullPath }}{{ .Values.shareFullPath }}{{ else }}{{ .Values.share }}/{{ .Values.name }}{{ end }}
   storageClassName: ""

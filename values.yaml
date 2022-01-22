@@ -3,6 +3,7 @@ name: ""
 namespace: ""
 server: ""
 share: ""
+shareFullPath: ""
 storage: 10Mi
 reclaimPolicy: Retain
 accessMode: ReadWriteOnce
