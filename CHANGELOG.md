@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.1...v1.0.2) (2022-04-01)
+
+
+### Bug Fixes
+
+* added labels ([23a9431](https://github.com/mdvorak-cloud/nfs-pvc/commit/23a9431e78359aed14b04dd15b517c50c821d3a6))
+
 ### [1.0.1](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0...v1.0.1) (2022-04-01)
 
 
