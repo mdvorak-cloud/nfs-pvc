@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0...v1.0.1) (2022-04-01)
+
+
+### Bug Fixes
+
+* use default release name and namespace ([f93ee5a](https://github.com/mdvorak-cloud/nfs-pvc/commit/f93ee5a0e5fb4bae2f0570367a377d902f9a56c0))
+
 ## [1.0.0](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.4...v1.0.0) (2022-04-01)
 
 
