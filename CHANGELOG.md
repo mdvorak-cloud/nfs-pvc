@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0-alpha.3](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2022-04-01)
+
+
+### Continuous Integration
+
+* try nested checkout to fix publish ([0358c85](https://github.com/mdvorak-cloud/nfs-pvc/commit/0358c855f043b81dc776a09c7100e760d01e5997))
+
 ## [1.0.0-alpha.2](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-04-01)
 
 
