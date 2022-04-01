@@ -17,7 +17,7 @@ spec:
   source:
     repoURL: https://mdvorak-cloud.github.io/nfs-pvc
     chart: nfs-pvc
-    targetRevision: 1.0.1
+    targetRevision: 1.0.2
     helm:
       parameters:
         - name: server
