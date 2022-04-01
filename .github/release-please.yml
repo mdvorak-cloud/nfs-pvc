@@ -1,3 +1,3 @@
-# https://github.com/googleapis/repo-automation-bots/tree/main/packages/release-please#configuration
+# https://github.com/apps/release-please
 handleGHRelease: true
 releaseType: helm
