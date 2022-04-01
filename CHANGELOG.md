@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.4...v1.0.0) (2022-04-01)
+
+
+### Continuous Integration
+
+* remove chart name from the workflow ([d37e8f7](https://github.com/mdvorak-cloud/nfs-pvc/commit/d37e8f70e7b382170cfebba6f5df518df545d8cd))
+
 ## [1.0.0-alpha.4](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2022-04-01)
 
 
