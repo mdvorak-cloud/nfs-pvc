@@ -3,6 +3,8 @@ kind: PersistentVolumeClaim
 metadata:
   name: {{ .Values.name | default .Release.Name }}
   namespace: {{ .Values.namespace | default .Release.Namespace }}
+  labels:
+    app.kubernetes.io/name: {{ .Values.name | default .Release.Name }}
 spec:
   accessModes:
     - {{ .Values.accessMode }}
