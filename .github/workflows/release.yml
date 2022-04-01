@@ -14,5 +14,7 @@ jobs:
 
       - name: Release Chart
         uses: helm/chart-releaser-action@v1.4.0
+        with:
+          charts_dir: .
         env:
           CR_TOKEN: ${{ github.token }}
