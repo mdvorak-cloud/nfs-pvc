@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          path: charts/nfs-pvc
+          path: ${{ github.repository }}
 
       - name: Workaround
         run: git init
@@ -20,4 +20,5 @@ jobs:
       - name: Helm Publisher
         uses: stefanprodan/helm-gh-pages@v1.5.0
         with:
+          charts_dir: ${{ github.repository_owner }}
           token: ${{ github.token }}
