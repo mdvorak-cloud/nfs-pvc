@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   nfs-pvc:
   - apiVersion: v2
+    created: "2022-04-01T19:08:40.625402482Z"
+    description: A Helm chart for PersistenVolume and matching PersistentVolumeClaim
+    digest: e80e4eb2d92557ab752e1c2e07eee6d8cc32aa18ed80040b9276511bb40889f1
+    name: nfs-pvc
+    type: application
+    urls:
+    - https://mdvorak-cloud.github.io/nfs-pvc/nfs-pvc-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     created: "2022-04-01T16:37:12.338530977Z"
     description: A Helm chart for PersistenVolume and matching PersistentVolumeClaim
     digest: 224e7caa3ce0a19bb7c1feae23da9acf7840ba2336c76bb0f9e2e7b130c00e45
@@ -28,4 +37,4 @@ entries:
     urls:
     - https://mdvorak-cloud.github.io/nfs-pvc/nfs-pvc-1.0.0-alpha.4.tgz
     version: 1.0.0-alpha.4
-generated: "2022-04-01T16:37:12.337288714Z"
+generated: "2022-04-01T19:08:40.624695756Z"
