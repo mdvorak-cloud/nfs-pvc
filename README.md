@@ -4,30 +4,26 @@ Helper helm chart for mounting pre-created NFS directories as PVC.
 
 How to use from ArgoCD:
 
+<!--x-release-please-start-version-->
+
 ```yaml
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: my-storage
+  name: mystorage
 spec:
   project: default
 
   source:
-    repoURL: https://github.com/mdvorak-cloud/nfs-pvc.git
-    path: .
-    targetRevision: HEAD
+    repoURL: https://mdvorak-cloud.github.io/nfs-pvc
+    chart: nfs-pvc
+    targetRevision: 1.0.1
     helm:
       parameters:
-        - name: name
-          value: myname
-        - name: namespace
-          value: myns
         - name: server
           value: nfs.example.com
         - name: share
           value: /kubernetes
-        - name: storage
-          value: 10Mi
         - name: accessMode
           value: ReadWriteMany
 
@@ -42,3 +38,5 @@ spec:
     syncOptions:
       - CreateNamespace=true
 ```
+
+<!--x-release-please-end-->

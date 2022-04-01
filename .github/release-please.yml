@@ -1,3 +1,5 @@
 # https://github.com/apps/release-please
 handleGHRelease: true
 releaseType: helm
+extraFiles:
+  - README.md
