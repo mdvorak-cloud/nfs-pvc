@@ -2,4 +2,4 @@ apiVersion: v2
 name: nfs-pvc
 description: A Helm chart for PersistenVolume and matching PersistentVolumeClaim
 type: application
-version: 1.0.0
+version: 1.0.0-alpha.0
