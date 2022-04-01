@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0-alpha.4](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2022-04-01)
+
+
+### Continuous Integration
+
+* workaround for non-sense validation ([25805ba](https://github.com/mdvorak-cloud/nfs-pvc/commit/25805ba41b01bad5189957f49022ed8f4881fa06))
+
 ## [1.0.0-alpha.3](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2022-04-01)
 
 
