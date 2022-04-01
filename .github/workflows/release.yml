@@ -14,6 +14,9 @@ jobs:
         with:
           path: charts/nfs-pvc
 
+      - name: Workaround
+        run: git init
+
       - name: Helm Publisher
         uses: stefanprodan/helm-gh-pages@v1.5.0
         with:
