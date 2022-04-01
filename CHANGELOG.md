@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0-alpha.2](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-04-01)
+
+
+### Continuous Integration
+
+* try stefanprodan/helm-gh-pages@v1.5.0 ([fdd8bc6](https://github.com/mdvorak-cloud/nfs-pvc/commit/fdd8bc692d1d5c6ec41be995a7873ebcf8559e5f))
+
 ## [1.0.0-alpha.1](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2022-04-01)
 
 
