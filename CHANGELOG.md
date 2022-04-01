@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0-alpha.1](https://github.com/mdvorak-cloud/nfs-pvc/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2022-04-01)
+
+
+### Continuous Integration
+
+* fix release charts_dir ([fc10514](https://github.com/mdvorak-cloud/nfs-pvc/commit/fc10514ab9c049cf53ad6de5a6fc4c341c82f6ed))
+
 ## 1.0.0-alpha.0 (2022-04-01)
 
 
