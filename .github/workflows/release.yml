@@ -18,7 +18,7 @@ jobs:
         run: git init
 
       - name: Helm Publisher
-        uses: stefanprodan/helm-gh-pages@v1.5.0
+        uses: stefanprodan/helm-gh-pages@v1.6.0
         with:
           charts_dir: ${{ github.repository_owner }}
           token: ${{ github.token }}
